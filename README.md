@@ -1,3 +1,3 @@
 # insanhaklari
 ŞAMPİYON FENERBAHÇEEEEEEEE
-FENER
+insan hakları yoktur
