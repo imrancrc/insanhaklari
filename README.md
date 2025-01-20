@@ -1,1 +1,2 @@
 # insanhaklari
+ŞAMPİYON FENERBAHÇEEEEEEEE
