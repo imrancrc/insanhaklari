@@ -18,22 +18,45 @@
             margin: 0;
             padding: 0;
             box-sizing: border-box;
+            font-family: Georgia, 'Times New Roman', Times, serif;
         }
 
         main {
             padding: 20px;
             margin: 20px;
-            margin-top: 70px;
+            margin-top: 10px;
         }
+        .section-card {
+            margin-top: 2rem;
+
+        }
+       
     </style>
 </head>
 
 <body>
-    <header>
-        <!-- place navbar here -->
-        <nav class="navbar navbar-expand-lg fixed-top" style="background-color: turquoise;">
+    <header>     
+        <!-- As a heading -->
+
+
+        <nav class="navbar bg-body-tertiary">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#"><img src="" alt=""></a>
+                <span class="navbar-brand mb-0 h1 ps-3">İHDD</span>
+                <div class="d-flex mt-3 " style="gap: 8px; margin: 5px;">
+                
+                    <a href=""> <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href=""> <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href=""> <i class="fa-brands fa-twitter"></i>
+                    </a>
+                </div>
+</nav>
+  
+        <!-- place navbar here -->
+        <nav class="navbar navbar-expand-lg " style="background-color: rgba(0, 0, 0, 0)">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="image/logo.png" style="width: 95px"alt="İHDD" title="İHDD"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -110,10 +133,12 @@
                 </button>
             </div>
 
-        </section>
+        </section> 
+       
         <!-- Card -->
-        <section>
-            <div class="container">
+        <section class="section-card">
+
+            <div class="container ">
                 <div class="row text-center">
                     <div class="col-md-4 col-sm-6 mb-4">
                         <div class="card" style="width: 100%;">
@@ -192,11 +217,77 @@
                 </div>
             </div>
         </section>
+       
+        
     </main>
+
     <!-- place footer here -->
-    <footer>
+    <footer style="background-color: darkblue; color: beige;" >
+        <div class="container">
+            <footer class="py-5">
+              <div class="row">
+                <div class="col-6 col-md-2 mb-3">
+                  <h5>Adres</h5>
+                  <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+                  </ul>
+                </div>
+          
+                <div class="col-6 col-md-2 mb-3">
+                  <h5>İletişim</h5>
+                  <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+                  </ul>
+                </div>
+          
+                <div class="col-6 col-md-2 mb-3">
+
+                  <div>
+                    <img src="image/YAŞAMAK HAKKIM.png "  style="width: 250px;transform: rotate(-25deg);" alt="">
+                  </div>
+                </div>
+                
+          
+                <div class="col-md-5 offset-md-1 mb-3">
+                  <form>
+                    <h5>Subscribe to our newsletter</h5>
+                    <p>Monthly digest of what's new and exciting from us.</p>
+                    <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                      <label for="newsletter1" class="visually-hidden">Email address</label>
+                      <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                      <button class="btn btn-primary w-50" type="button">BİZE KATIL</button>
+
+                    </div>
+                  </form>
+                  
+
+                </div>
+                
+              </div>
+          
+              <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+                <p>© 2024 Company, Inc. All rights reserved.</p>
+                <ul class="list-unstyled d-flex">
+                  <li class="ms-3"><a class="link-body-emphasis" href="#"><i class="fa-brands fa-instagram" style="color: beige;"></i></a></li>
+                  <li class="ms-3"><a class="link-body-emphasis" href="#"><i class="fa-brands fa-facebook" style="color: beige;"></i></a></li>
+                  <li class="ms-3"><a class="link-body-emphasis" href="#"><i class="fa-brands fa-twitter" style="color: beige;"></i></a></li>
+                </ul>
+              </div>
+            </footer>
+
+          </div>
 
     </footer>
+   
+
     <!-- Bootstrap JavaScript Libraries -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
