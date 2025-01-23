@@ -1,1 +1,1 @@
-proje
+İnsan Hakları Dayanışma Derneği
